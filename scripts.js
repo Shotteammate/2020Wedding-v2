@@ -15,6 +15,7 @@ function visitPage(imgObj) {
     window.location.href = addr+".html";
 }
 
+/*
 //lazy loading images
 const targets = document.querySelectorAll('img');
 
@@ -39,6 +40,7 @@ const lazyLoad = target => {
 };
 
 targets.forEach(lazyLoad);
+*/
 
 //google map api
 function initMap(){
