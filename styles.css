@@ -220,6 +220,73 @@ footer div{
         height: 680px;
     }
 }
+@media screen and (max-width:415px){
+    .wrapper {
+        width: 375px;
+        margin: auto;
+    }
+    /*  header */
+    header{
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/wedding-v2.appspot.com/o/header-bg.jpg?alt=media&token=0035cf47-b2a8-4f14-a6b4-5dc82c508646");
+        background-position: 50% 20%;
+        background-repeat: no-repeat;
+        background-size: 375px;
+        height: 200px;
+    }
+    .logo {
+        display: none;
+    }
+    .navbarContainer{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+    }
+    .navbarContainer>li{
+        font-size: 15px;
+        font-weight:bold;
+        margin: 15px 10px;
+    }
+    /* Section */
+    /* location section*/
+    .location{
+        background-color: rgb(255, 224, 224);
+        height: 620px;
+    }
+            /* google map */
+    #map{
+        height:300px;
+        width: 97%;
+        margin: 10px auto;
+    }
+    .loctionHead{
+        font-size: 18px;
+    }
+
+    .locationInfo{
+        margin: 0 20px;
+        padding-top: 10px;
+        font-size: 16px;
+        color: rgb(85, 82, 82);
+    }
+    .locationInfo div{
+        padding: 5px;
+    }
+    .remark{
+        font-size: 14px;
+    }
+    /* footer */
+    footer{
+        height: 100px;
+        background-color: rgb(78, 77, 77);
+        color: rgba(255, 255, 255, 0.74);
+        font-size: 14px;
+        text-align: center;
+    }
+
+    footer div{
+        padding-top: 5px;
+    }
+}
 
 @media screen and (max-width:376px){
     .wrapper {
